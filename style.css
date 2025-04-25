@@ -1,0 +1,151 @@
+/* 全局样式 */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* 顶部标题 */
+  header {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px 20px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  header img {
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #222;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  /* 导航栏样式 */
+  nav {
+    background-color: #0077cc;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 内容区域 */
+  section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  section ul {
+    line-height: 1.8;
+    font-size: 16px;
+  }
+  
+  section p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* 按钮 */
+  button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  
+  /* 插图 */
+  .hero-image {
+    display: block;
+    max-width: 90%;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  .comment-box {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .comment-box button {
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 6px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .like-btn {
+    background-color: #ffcc00;
+  }
+  
+  .share-btn {
+    background-color: #6cb4ff;
+  }
+  .faq-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .faq-item h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #0077cc;
+  }
+  
+  .faq-item p {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #333;
+  }
+  
